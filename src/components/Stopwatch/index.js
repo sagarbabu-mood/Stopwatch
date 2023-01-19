@@ -64,13 +64,25 @@ class Stopwatch extends Component {
             </div>
             <h1>{timeDisplay}</h1>
             <div>
-              <button type="button" onClick={this.onStartTimer}>
+              <button
+                type="button"
+                className="button-green"
+                onClick={this.onStartTimer}
+              >
                 Start
               </button>
-              <button type="button" onClick={this.onStopTimer}>
+              <button
+                type="button"
+                className="button-red"
+                onClick={this.onStopTimer}
+              >
                 Stop
               </button>
-              <button type="button" onClick={this.onResetTimer}>
+              <button
+                type="button"
+                className="button-yellow"
+                onClick={this.onResetTimer}
+              >
                 Reset
               </button>
             </div>
