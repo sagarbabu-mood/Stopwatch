@@ -47,14 +47,20 @@ button {
 .button-red {
   background-color: #ef0d36;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
 }
 
 .button-green {
   background-color: #1db05f;
   color: #ffffff;
+  outline: none;
+  cursor: pointer;
 }
 
 .button-yellow {
   background-color: #eaa800;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
 }
